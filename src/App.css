@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.float{
+  position: fixed;
+  top: 0;
+  bottom:20px;
+  left:auto;
+  right:auto;
+  z-index: 99;
+  width: 100%;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
