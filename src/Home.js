@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import CallIcon from '@material-ui/icons/Call';
 import { makeStyles } from "@material-ui/core/styles";
+import { green,blue ,red } from '@material-ui/core/colors';
 import MailIcon from '@material-ui/icons/Mail';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -75,11 +76,11 @@ function Home() {
              Contact
             </Typography>
             <br/>
-            <a target="_blank" href="tel:+919453467991"><CallIcon color="primary" className={classes.submit} fontSize="large"/></a>
-            <a target="_blank" href="mailto:eshaan.singh.parihar@gmail.com"><MailIcon className={classes.submit} fontSize="large"/></a>
+            <a target="_blank" href="tel:+919453467991"><CallIcon style={{ color: green[500] }} className={classes.submit} fontSize="large"/></a>
+            <a target="_blank" href="mailto:eshaan.singh.parihar@gmail.com"><MailIcon style={{ color: red[400] }} className={classes.submit} fontSize="large"/></a>
             <a target="_blank" href="https://www.instagram.com/eshaansinghparihar/"><InstagramIcon color="secondary" className={classes.submit} fontSize="large"/></a>
-            <a target="_blank" href="https://twitter.com/EshaanParihar"><TwitterIcon color="primary" className={classes.submit} fontSize="large"/></a>
-            <a target="_blank" href="https://www.linkedin.com/in/eshaansinghparihar/"><LinkedInIcon color="primary" className={classes.submit} fontSize="large"/></a>
+            <a target="_blank" href="https://twitter.com/EshaanParihar"><TwitterIcon style={{ color: blue[400] }} className={classes.submit} fontSize="large"/></a>
+            <a target="_blank" href="https://www.linkedin.com/in/eshaansinghparihar/"><LinkedInIcon style={{ color: "0b5e86" }} className={classes.submit} fontSize="large"/></a>
             <a target="_blank" href="https://github.com/eshaansinghparihar"><GitHubIcon className={classes.submit} fontSize="large"/></a>
           </CardContent>
         </Paper>
