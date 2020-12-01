@@ -13,12 +13,12 @@ const useStyles = makeStyles((theme) => ({
     },
     submit: {
         marginTop: theme.spacing(2),
-        width: "20%",
+        width: "30%",
         marginLeft: "auto",
         marginRight: "auto",
         justifyContent: "center",
         alignItems: "center",
-      },
+      },  
   }));
 function Projects() {
     const classes = useStyles();
@@ -63,7 +63,7 @@ Note:- Haven't used any library such as Socket.io or WebRTC to implement the rea
               color="primary"
               className={classes.submit}
             >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/Blabber">View Github Repository</a>
+            <a target="_blank" href="https://github.com/eshaansinghparihar/Blabber">View Github Repo</a>
             </Button>
             <Button
               type="submit"
@@ -112,7 +112,7 @@ Features:-<br/>
               color="primary"
               className={classes.submit}
             >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/ExpenseTracker">View Github Repository</a>
+            <a target="_blank" href="https://github.com/eshaansinghparihar/ExpenseTracker">View Github Repo</a>
             </Button>
             <Button
               type="submit"
@@ -161,7 +161,7 @@ Features:-<br/>
               color="primary"
               className={classes.submit}
             >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/SocialApp">View Github Repository</a>
+            <a target="_blank" href="https://github.com/eshaansinghparihar/SocialApp">View Github Repo</a>
             </Button>
             <Button
               type="submit"
@@ -213,7 +213,7 @@ Features:-<br/>
               color="primary"
               className={classes.submit}
             >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/covid19tracker">View Github Repository</a>
+            <a target="_blank" href="https://github.com/eshaansinghparihar/covid19tracker">View Github Repo</a>
             </Button>
             <Button
               type="submit"
@@ -221,7 +221,7 @@ Features:-<br/>
               variant="contained"
               className={classes.submit}
             >
-            Video Unavailable
+            Video NA
             </Button>
           </CardContent>
         </Paper>

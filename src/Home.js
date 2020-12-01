@@ -25,6 +25,14 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "center",
         alignItems: "center",
       },
+      submitbutton: {
+        marginTop: theme.spacing(2),
+        width: "35%",
+        marginLeft: "auto",
+        marginRight: "auto",
+        justifyContent: "center",
+        alignItems: "center",
+      },
   }));
 function Home() {
   const classes = useStyles();
@@ -93,7 +101,7 @@ function Home() {
               fullWidth
               variant="contained"
               color="secondary"
-              className={classes.submit}
+              className={classes.submitbutton}
             >
             <a href="https://drive.google.com/u/0/uc?id=1MhqwC5xYi6Rf_ccXZBJpXasNmqDwbr6n&export=download" download>Download CV</a>
             </Button>

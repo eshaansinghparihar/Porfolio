@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     },
     submit: {
         marginTop: theme.spacing(2),
-        width: "20%",
+        width: "30%",
         marginLeft: "auto",
         marginRight: "auto",
         justifyContent: "center",
@@ -57,7 +57,7 @@ function Blogs() {
               color="primary"
               className={classes.submit}
             >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/selfhelp">View Github Repository</a>
+            <a target="_blank" href="https://github.com/eshaansinghparihar/selfhelp">View Github Repo</a>
             </Button>
           </CardContent>
         </Paper>
