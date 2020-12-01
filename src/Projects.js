@@ -25,6 +25,94 @@ function Projects() {
     return (
       <div>
         <CssBaseline />
+
+        <Paper
+          item
+          alignContent="center"
+          spacing={2}
+          elevation={8}
+          className={classes.card}
+        >
+          <CardContent>
+            <Typography variant="subtitle1" component="h4">
+              <h3>Do You Know Me CLI APP</h3>
+            </Typography>
+            <h5>Completed in November 2020</h5>
+            <Typography variant="subtitle2" component="h4">
+            <p>Assignment 1 for levelZero neog.camp. Developed a Command Line App which is a Quiz about me</p>
+            </Typography>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="secondary"
+              className={classes.submit}
+            >
+            <a target="_blank" href="https://repl.it/@EshaanSParihar/Quiz#index.js">Try Project</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="primary"
+              className={classes.submit}
+            >
+            <a target="_blank" href="https://github.com/eshaansinghparihar/Quiz">View Github Repo</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              className={classes.submit}
+            >
+            <a target="_blank" href="/">Video NA</a> 
+            </Button>
+          </CardContent>
+        </Paper>
+        <Paper
+          item
+          alignContent="center"
+          spacing={2}
+          elevation={8}
+          className={classes.card}
+        >
+          <CardContent>
+            <Typography variant="subtitle1" component="h4">
+              <h3>NeogCamp Quiz App</h3>
+            </Typography>
+            <h5>Completed in November 2020</h5>
+            <Typography variant="subtitle2" component="h4">
+            <p>Assignment 1 for levelZero neog.camp. The Quiz is aimed to test a participant's basic knowledge about this Bootcamp.</p>
+            </Typography>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="secondary"
+              className={classes.submit}
+            >
+            <a target="_blank" href="https://repl.it/@EshaanSParihar/neogcampQuiz#index.js">Try Project</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="primary"
+              className={classes.submit}
+            >
+            <a target="_blank" href="https://github.com/eshaansinghparihar/neogcamp_Quiz">View Github Repo</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              className={classes.submit}
+            >
+            <a target="_blank" href="/">Video NA</a>
+            </Button>
+          </CardContent>
+        </Paper>
+
         <Paper
           item
           alignContent="center"
