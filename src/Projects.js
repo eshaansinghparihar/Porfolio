@@ -22,10 +22,184 @@ const useStyles = makeStyles((theme) => ({
   }));
 function Projects() {
     const classes = useStyles();
+
+    
+
     return (
       <div>
         <CssBaseline />
-
+        <Paper
+          item
+          alignContent="center"
+          spacing={2}
+          elevation={8}
+          className={classes.card}
+        >
+          <CardContent>
+            <Typography variant="subtitle1" component="h4">
+              <h3>good Travel</h3>
+            </Typography>
+            <h5>Completed in December 2020</h5>
+            <Typography variant="subtitle2" component="h4">
+            <p>You would find some good recommendations for your next travel destinations. Made using ReactJS with love</p>
+            </Typography>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="secondary"
+              className={classes.submit}
+            >
+            <a target="_blank" href="https://goodtravel.netlify.app/">Try Project</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="primary"
+              className={classes.submit}
+            >
+            <a target="_blank" href="https://github.com/eshaansinghparihar/TravelRecommendation">View Github Repo</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              className={classes.submit}
+            >
+            <a target="_blank" href="/">Video NA</a> 
+            </Button>
+          </CardContent>
+        </Paper>
+        <Paper
+          item
+          alignContent="center"
+          spacing={2}
+          elevation={8}
+          className={classes.card}
+        >
+          <CardContent>
+            <Typography variant="subtitle1" component="h4">
+              <h3>Emoji Dictionary</h3>
+            </Typography>
+            <h5>Completed in December 2020</h5>
+            <Typography variant="subtitle2" component="h4">
+            <p>A unique Dictionary app that lets you find the exact meanings of Emojis used on Day-to-Day basis</p>
+            </Typography>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="secondary"
+              className={classes.submit}
+            >
+            <a target="_blank" href="https://emojidict.netlify.app/">Try Project</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="primary"
+              className={classes.submit}
+            >
+            <a target="_blank" href="https://github.com/eshaansinghparihar/EmojiDictionary">View Github Repo</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              className={classes.submit}
+            >
+            <a target="_blank" href="/">Video NA</a> 
+            </Button>
+          </CardContent>
+        </Paper>
+        <Paper
+          item
+          alignContent="center"
+          spacing={2}
+          elevation={8}
+          className={classes.card}
+        >
+          <CardContent>
+            <Typography variant="subtitle1" component="h4">
+              <h3>Be A Shakespeare</h3>
+            </Typography>
+            <h5>Completed in November 2020</h5>
+            <Typography variant="subtitle2" component="h4">
+            <p>Translation app to translate your simple English sentences to Shakespeare's Dialogue.</p>
+            </Typography>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="secondary"
+              className={classes.submit}
+            >
+            <a target="_blank" href="https://be-a-shakespeare.netlify.app/">Try Project</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="primary"
+              className={classes.submit}
+            >
+            <a target="_blank" href="https://github.com/eshaansinghparihar/ShakespeareSpeak">View Github Repo</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              className={classes.submit}
+            >
+            <a target="_blank" href="/">Video NA</a> 
+            </Button>
+          </CardContent>
+        </Paper>
+        <Paper
+          item
+          alignContent="center"
+          spacing={2}
+          elevation={8}
+          className={classes.card}
+        >
+          <CardContent>
+            <Typography variant="subtitle1" component="h4">
+              <h3>Banana Speak</h3>
+            </Typography>
+            <h5>Completed in November 2020</h5>
+            <Typography variant="subtitle2" component="h4">
+            <p>Wanna speak like Minions? Try this application to convert your English sentences to Minion Language.</p>
+            </Typography>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="secondary"
+              className={classes.submit}
+            >
+            <a target="_blank" href="https://talkminion.netlify.app/">Try Project</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="primary"
+              className={classes.submit}
+            >
+            <a target="_blank" href="https://github.com/eshaansinghparihar/BananaSpeak">View Github Repo</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              className={classes.submit}
+            >
+            <a target="_blank" href="/">Video NA</a> 
+            </Button>
+          </CardContent>
+        </Paper>
         <Paper
           item
           alignContent="center"
