@@ -23,270 +23,117 @@ const useStyles = makeStyles((theme) => ({
 function Projects() {
     const classes = useStyles();
 
-    
+    const projectObject=[
+      {
+        name:"good Travel",
+        completed:"December 2020",
+        description:"You would find some good recommendations for your next travel destinations. Made using ReactJS with love.This application makes use of OpenTripMap REST API to get the attractions.",
+        projectUrl:"https://goodtravel.netlify.app/",
+        githubUrl:"https://github.com/eshaansinghparihar/TravelRecommendation",
+        videoUrl:""
+      },
+      {
+        name:"Emoji Dictionary",
+        completed:"December 2020",
+        description:"A unique Dictionary app that lets you find the exact meanings of Emojis used on Day-to-Day basis.",
+        projectUrl:"https://emojidict.netlify.app/",
+        githubUrl:"https://github.com/eshaansinghparihar/EmojiDictionary",
+        videoUrl:""
+      },
+      {
+        name:"Be A Shakespeare",
+        completed:"November 2020",
+        description:"Translation app to translate your simple English sentences to Shakespeare's Dialogue.",
+        projectUrl:"https://be-a-shakespeare.netlify.app/",
+        githubUrl:"https://github.com/eshaansinghparihar/ShakespeareSpeak",
+        videoUrl:""
+      },
+      {
+        name:"Banana Speak",
+        completed:"November 2020",
+        description:"Wanna speak like Minions? Try this application to convert your English sentences to Minion Language.",
+        projectUrl:"https://talkminion.netlify.app/",
+        githubUrl:"https://github.com/eshaansinghparihar/BananaSpeak",
+        videoUrl:""
+      },
+      {
+        name:"Do You Know Me CLI APP",
+        completed:"November 2020",
+        description:"Assignment 1 for levelZero neog.camp. Developed a Command Line App which is a Quiz about me",
+        projectUrl:"https://repl.it/@EshaanSParihar/Quiz#index.js",
+        githubUrl:"https://github.com/eshaansinghparihar/Quiz",
+        videoUrl:""
+      },
+      {
+        name:"NeogCamp Quiz App",
+        completed:"November 2020",
+        description:"Assignment 1 for levelZero neog.camp. The Quiz is aimed to test a participant's basic knowledge about this Bootcamp.",
+        projectUrl:"https://repl.it/@EshaanSParihar/neogcampQuiz#index.js",
+        githubUrl:"https://github.com/eshaansinghparihar/neogcamp_Quiz",
+        videoUrl:""
+      },
+      // {
+      //   name:"",
+      //   completed:"December 2020",
+      //   description:"",
+      //   projectUrl:"",
+      //   githubUrl:"",
+      //   videoUrl:""
+      // },
+    ]
+
+    const projectCards = projectObject.map(project=>{
+      return(
+        <Paper
+          item
+          alignContent="center"
+          spacing={2}
+          elevation={8}
+          className={classes.card}
+        >
+          <CardContent>
+            <Typography variant="subtitle1" component="h4">
+            <h3>{project.name}</h3>
+            </Typography>
+            <h5>Completed in {project.completed}</h5>
+            <Typography variant="subtitle2" component="h4">
+            <p>{project.description}</p>
+            </Typography>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="secondary"
+              className={classes.submit}
+            >
+            <a target="_blank" href={project.projectUrl}>Try Project</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="primary"
+              className={classes.submit}
+            >
+            <a target="_blank" href={project.githubUrl}>View Github Repo</a>
+            </Button>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              className={classes.submit}
+            >
+            <a target="_blank" href={project.videoUrl}>{project.videoUrl?"View Video":"Video NA"}</a>
+            </Button>
+          </CardContent>
+        </Paper>
+      );
+    })
 
     return (
       <div>
         <CssBaseline />
-        <Paper
-          item
-          alignContent="center"
-          spacing={2}
-          elevation={8}
-          className={classes.card}
-        >
-          <CardContent>
-            <Typography variant="subtitle1" component="h4">
-              <h3>good Travel</h3>
-            </Typography>
-            <h5>Completed in December 2020</h5>
-            <Typography variant="subtitle2" component="h4">
-            <p>You would find some good recommendations for your next travel destinations. Made using ReactJS with love</p>
-            </Typography>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="secondary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://goodtravel.netlify.app/">Try Project</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/TravelRecommendation">View Github Repo</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              className={classes.submit}
-            >
-            <a target="_blank" href="/">Video NA</a> 
-            </Button>
-          </CardContent>
-        </Paper>
-        <Paper
-          item
-          alignContent="center"
-          spacing={2}
-          elevation={8}
-          className={classes.card}
-        >
-          <CardContent>
-            <Typography variant="subtitle1" component="h4">
-              <h3>Emoji Dictionary</h3>
-            </Typography>
-            <h5>Completed in December 2020</h5>
-            <Typography variant="subtitle2" component="h4">
-            <p>A unique Dictionary app that lets you find the exact meanings of Emojis used on Day-to-Day basis</p>
-            </Typography>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="secondary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://emojidict.netlify.app/">Try Project</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/EmojiDictionary">View Github Repo</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              className={classes.submit}
-            >
-            <a target="_blank" href="/">Video NA</a> 
-            </Button>
-          </CardContent>
-        </Paper>
-        <Paper
-          item
-          alignContent="center"
-          spacing={2}
-          elevation={8}
-          className={classes.card}
-        >
-          <CardContent>
-            <Typography variant="subtitle1" component="h4">
-              <h3>Be A Shakespeare</h3>
-            </Typography>
-            <h5>Completed in November 2020</h5>
-            <Typography variant="subtitle2" component="h4">
-            <p>Translation app to translate your simple English sentences to Shakespeare's Dialogue.</p>
-            </Typography>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="secondary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://be-a-shakespeare.netlify.app/">Try Project</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/ShakespeareSpeak">View Github Repo</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              className={classes.submit}
-            >
-            <a target="_blank" href="/">Video NA</a> 
-            </Button>
-          </CardContent>
-        </Paper>
-        <Paper
-          item
-          alignContent="center"
-          spacing={2}
-          elevation={8}
-          className={classes.card}
-        >
-          <CardContent>
-            <Typography variant="subtitle1" component="h4">
-              <h3>Banana Speak</h3>
-            </Typography>
-            <h5>Completed in November 2020</h5>
-            <Typography variant="subtitle2" component="h4">
-            <p>Wanna speak like Minions? Try this application to convert your English sentences to Minion Language.</p>
-            </Typography>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="secondary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://talkminion.netlify.app/">Try Project</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/BananaSpeak">View Github Repo</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              className={classes.submit}
-            >
-            <a target="_blank" href="/">Video NA</a> 
-            </Button>
-          </CardContent>
-        </Paper>
-        <Paper
-          item
-          alignContent="center"
-          spacing={2}
-          elevation={8}
-          className={classes.card}
-        >
-          <CardContent>
-            <Typography variant="subtitle1" component="h4">
-              <h3>Do You Know Me CLI APP</h3>
-            </Typography>
-            <h5>Completed in November 2020</h5>
-            <Typography variant="subtitle2" component="h4">
-            <p>Assignment 1 for levelZero neog.camp. Developed a Command Line App which is a Quiz about me</p>
-            </Typography>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="secondary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://repl.it/@EshaanSParihar/Quiz#index.js">Try Project</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/Quiz">View Github Repo</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              className={classes.submit}
-            >
-            <a target="_blank" href="/">Video NA</a> 
-            </Button>
-          </CardContent>
-        </Paper>
-        <Paper
-          item
-          alignContent="center"
-          spacing={2}
-          elevation={8}
-          className={classes.card}
-        >
-          <CardContent>
-            <Typography variant="subtitle1" component="h4">
-              <h3>NeogCamp Quiz App</h3>
-            </Typography>
-            <h5>Completed in November 2020</h5>
-            <Typography variant="subtitle2" component="h4">
-            <p>Assignment 1 for levelZero neog.camp. The Quiz is aimed to test a participant's basic knowledge about this Bootcamp.</p>
-            </Typography>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="secondary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://repl.it/@EshaanSParihar/neogcampQuiz#index.js">Try Project</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/neogcamp_Quiz">View Github Repo</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              className={classes.submit}
-            >
-            <a target="_blank" href="/">Video NA</a>
-            </Button>
-          </CardContent>
-        </Paper>
-
+        {projectCards}
         <Paper
           item
           alignContent="center"
