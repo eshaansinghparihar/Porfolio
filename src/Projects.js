@@ -106,7 +106,7 @@ function Projects() {
               color="secondary"
               className={classes.submit}
             >
-            <a target="_blank" href={project.projectUrl}>Try Project</a>
+            <a target="_blank" href={project.projectUrl} rel="noreferrer">Try Project</a>
             </Button>
             <Button
               type="submit"
@@ -115,7 +115,7 @@ function Projects() {
               color="primary"
               className={classes.submit}
             >
-            <a target="_blank" href={project.githubUrl}>View Github Repo</a>
+            <a target="_blank" href={project.githubUrl} rel="noreferrer">View Github Repo</a>
             </Button>
             <Button
               type="submit"
@@ -123,7 +123,7 @@ function Projects() {
               variant="contained"
               className={classes.submit}
             >
-            <a target="_blank" href={project.videoUrl}>{project.videoUrl?"View Video":"Video NA"}</a>
+            <a target="_blank" href={project.videoUrl} rel="noreferrer">{project.videoUrl?"View Video":"Video NA"}</a>
             </Button>
           </CardContent>
         </Paper>
@@ -163,7 +163,7 @@ Note:- Haven't used any library such as Socket.io or WebRTC to implement the rea
               color="secondary"
               className={classes.submit}
             >
-            <a target="_blank" href="https://weblabber.netlify.app/">Try Project</a>
+            <a target="_blank" href="https://weblabber.netlify.app/" rel="noreferrer">Try Project</a>
             </Button>
             <Button
               type="submit"
@@ -172,7 +172,7 @@ Note:- Haven't used any library such as Socket.io or WebRTC to implement the rea
               color="primary"
               className={classes.submit}
             >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/Blabber">View Github Repo</a>
+            <a target="_blank" href="https://github.com/eshaansinghparihar/Blabber" rel="noreferrer">View Github Repo</a>
             </Button>
             <Button
               type="submit"
@@ -180,7 +180,7 @@ Note:- Haven't used any library such as Socket.io or WebRTC to implement the rea
               variant="contained"
               className={classes.submit}
             >
-            <a target="_blank" href="https://www.linkedin.com/posts/eshaansinghparihar_ever-since-i-learnt-about-react-hooks-my-activity-6710803408527392768-WJHt">View Video</a> 
+            <a target="_blank" href="https://www.linkedin.com/posts/eshaansinghparihar_ever-since-i-learnt-about-react-hooks-my-activity-6710803408527392768-WJHt" rel="noreferrer">View Video</a> 
             </Button>
           </CardContent>
         </Paper>
@@ -212,7 +212,7 @@ Features:-<br/>
               color="secondary"
               className={classes.submit}
             >
-            <a target="_blank" href="https://cashmanager.netlify.app/">Try Project</a>
+            <a target="_blank" href="https://cashmanager.netlify.app/" rel="noreferrer">Try Project</a>
             </Button>
             <Button
               type="submit"
@@ -221,7 +221,7 @@ Features:-<br/>
               color="primary"
               className={classes.submit}
             >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/ExpenseTracker">View Github Repo</a>
+            <a target="_blank" href="https://github.com/eshaansinghparihar/ExpenseTracker" rel="noreferrer">View Github Repo</a>
             </Button>
             <Button
               type="submit"
@@ -229,7 +229,7 @@ Features:-<br/>
               variant="contained"
               className={classes.submit}
             >
-            <a target="_blank" href="https://www.linkedin.com/posts/eshaansinghparihar_developed-a-progressive-single-page-expense-activity-6704995772196278275-67-R">View Video</a> 
+            <a target="_blank" href="https://www.linkedin.com/posts/eshaansinghparihar_developed-a-progressive-single-page-expense-activity-6704995772196278275-67-R" rel="noreferrer">View Video</a> 
             </Button>
           </CardContent>
         </Paper>
@@ -261,7 +261,7 @@ Features:-<br/>
               color="secondary"
               className={classes.submit}
             >
-            <a target="_blank" href="https://drive.google.com/u/0/uc?id=1NO2dMP0q6_dEapdbeRNXOhHpz7q1B1Fl&export=download" download>Try Project</a>
+            <a target="_blank" href="https://drive.google.com/u/0/uc?id=1NO2dMP0q6_dEapdbeRNXOhHpz7q1B1Fl&export=download" download rel="noreferrer">Try Project</a>
             </Button>
             <Button
               type="submit"
@@ -270,7 +270,7 @@ Features:-<br/>
               color="primary"
               className={classes.submit}
             >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/SocialApp">View Github Repo</a>
+            <a target="_blank" href="https://github.com/eshaansinghparihar/SocialApp" rel="noreferrer">View Github Repo</a>
             </Button>
             <Button
               type="submit"
@@ -278,7 +278,7 @@ Features:-<br/>
               variant="contained"
               className={classes.submit}
             >
-            <a target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:6693178068615385088/">View Video</a> 
+            <a target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:6693178068615385088/" rel="noreferrer">View Video</a> 
             </Button>
           </CardContent>
         </Paper>
@@ -313,7 +313,7 @@ Features:-<br/>
               color="secondary"
               className={classes.submit}
             >
-            <a target="_blank" href="http://covid19citech.netlify.app/">Try Project</a>
+            <a target="_blank" href="http://covid19citech.netlify.app/" rel="noreferrer">Try Project</a>
             </Button>
             <Button
               type="submit"
@@ -322,7 +322,7 @@ Features:-<br/>
               color="primary"
               className={classes.submit}
             >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/covid19tracker">View Github Repo</a>
+            <a target="_blank" href="https://github.com/eshaansinghparihar/covid19tracker" rel="noreferrer">View Github Repo</a>
             </Button>
             <Button
               type="submit"
