@@ -30,6 +30,20 @@ function Blogs() {
       blogUrl:"https://eshaansinghparihar.medium.com/develop-a-simple-progressive-web-app-with-react-b5d8272c3102",
       githubUrl:"https://github.com/eshaansinghparihar/simple-pwa",
     },
+    {
+      name:"Integrating Google Maps in a React Application",
+      completed:"December 2020",
+      description:"Google Maps is a modern miracle in many respects. The possibilities it allows for are endless and can provide real value to your business and users. From showing your office location to showing a route a package delivery will take, Google Maps is flexible and powerful enough to handle a wide variety of use cases..This article provides a step-by-step demonstration to integrate it your React application",
+      blogUrl:"https://eshaansinghparihar.medium.com/integrating-google-maps-in-a-react-application-b7e530d48de4",
+      githubUrl:"https://github.com/eshaansinghparihar/react-googlemap",
+    },
+    {
+      name:"Pass data between React Components using Hooks and Context",
+      completed:"December 2020",
+      description:"Often you would have faced trouble in passing data between various components in React.This article provides a step-by-step demonstration to allow easy state management",
+      blogUrl:"https://eshaansinghparihar.medium.com/pass-data-between-react-components-using-hooks-and-context-d7018986262a",
+      githubUrl:"https://github.com/eshaansinghparihar/context",
+    },
   ]
 
   const blogCard = blogObject.map(blog=>{
