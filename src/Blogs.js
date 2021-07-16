@@ -90,42 +90,6 @@ function Blogs() {
     <div className="App">
         <CssBaseline />
         {blogCard}
-        <Paper
-          item
-          alignContent="center"
-          spacing={2}
-          elevation={8}
-          className={classes.card}
-        >
-          <CardContent>
-            <Typography variant="subtitle1" component="h4">
-              <h3>Personal Blogs</h3>
-            </Typography>
-            <h5>Completed in July 2019</h5>
-            <Typography variant="subtitle2" component="h4">
-            <p>Created a Website using HTML & CSS for personal blogging.<br/>
-            The blog aimed at providing summaries of Famous Must Read Self Help Books.</p>
-            </Typography>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="secondary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://selfhelp.netlify.app/">Read Blog</a>
-            </Button>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-            >
-            <a target="_blank" href="https://github.com/eshaansinghparihar/selfhelp">View Github Repo</a>
-            </Button>
-          </CardContent>
-        </Paper>
     </div>
   );
 }

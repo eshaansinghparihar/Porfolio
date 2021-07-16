@@ -76,12 +76,12 @@ function Home() {
              Contact
             </Typography>
             <br/>
-            <a target="_blank" href="tel:+919453467991"><CallIcon style={{ color: green[500] }} className={classes.submit} fontSize="large"/></a>
-            <a target="_blank" href="mailto:eshaan.singh.parihar@gmail.com"><MailIcon style={{ color: red[400] }} className={classes.submit} fontSize="large"/></a>
-            <a target="_blank" href="https://www.instagram.com/eshaansinghparihar/"><InstagramIcon color="secondary" className={classes.submit} fontSize="large"/></a>
-            <a target="_blank" href="https://twitter.com/EshaanParihar"><TwitterIcon style={{ color: blue[400] }} className={classes.submit} fontSize="large"/></a>
-            <a target="_blank" href="https://www.linkedin.com/in/eshaansinghparihar/"><LinkedInIcon style={{ color: "0b5e86" }} className={classes.submit} fontSize="large"/></a>
-            <a target="_blank" href="https://github.com/eshaansinghparihar"><GitHubIcon className={classes.submit} fontSize="large"/></a>
+            <a target="_blank" href="tel:+919453467991" rel="noreferrer"><CallIcon style={{ color: green[500] }} className={classes.submit} fontSize="large"/></a>
+            <a target="_blank" href="mailto:eshaan.singh.parihar@gmail.com" rel="noreferrer"><MailIcon style={{ color: red[400] }} className={classes.submit} fontSize="large"/></a>
+            <a target="_blank" href="https://www.instagram.com/eshaansinghparihar/" rel="noreferrer"><InstagramIcon color="secondary" className={classes.submit} fontSize="large"/></a>
+            <a target="_blank" href="https://twitter.com/EshaanParihar" rel="noreferrer"><TwitterIcon style={{ color: blue[400] }} className={classes.submit} fontSize="large"/></a>
+            <a target="_blank" href="https://www.linkedin.com/in/eshaansinghparihar/" rel="noreferrer"><LinkedInIcon style={{ color: "0b5e86" }} className={classes.submit} fontSize="large"/></a>
+            <a target="_blank" href="https://github.com/eshaansinghparihar" rel="noreferrer"><GitHubIcon className={classes.submit} fontSize="large"/></a>
           </CardContent>
         </Paper>
 
@@ -104,7 +104,7 @@ function Home() {
               color="secondary"
               className={classes.submitbutton}
             >
-            <a href="https://drive.google.com/u/0/uc?id=1MhqwC5xYi6Rf_ccXZBJpXasNmqDwbr6n&export=download" download>Download CV</a>
+            <a href="https://drive.google.com/u/0/uc?id=1EZY2A8E1ZAcU1ru49ghgPoioEChuE9Fx&export=download" download>Download CV</a>
             </Button>
           </CardContent>
         </Paper>
