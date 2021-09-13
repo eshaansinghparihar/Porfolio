@@ -104,7 +104,7 @@ function Home() {
               color="secondary"
               className={classes.submitbutton}
             >
-            <a href="https://drive.google.com/u/0/uc?id=1EZY2A8E1ZAcU1ru49ghgPoioEChuE9Fx&export=download" download>Download CV</a>
+            <a href="https://drive.google.com/uc?id=12Vtodp6rLUGNLvqw_QjxQ2ckz9fFVXp-&export=download" download>Download CV</a>
             </Button>
           </CardContent>
         </Paper>
